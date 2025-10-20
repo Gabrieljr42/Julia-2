@@ -3,23 +3,25 @@ class LoveLetter {
     constructor() {
         this.letterText = `Minha querida Júlia Delaías,
 
-Sei que estamos juntos há pouco tempo, apenas um mês e meio, mas já sinto que você é uma pessoa muito especial na minha vida. Desde o primeiro momento que te conheci, percebi que havia algo diferente em você, algo que me fazia querer conhecer mais e mais sobre quem você é.
+Sei que estamos juntos há pouco tempo, apenas um mês e um pouco, mas você é uma das pessoas mais especiais na minha vida. Desde o primeiro momento que te verdadeiramente vi você, percebi que havia algo diferente, algo que me fazia querer conhecer mais e mais sobre quem você é. 
+Você me encanta!
 
 Sua paixão pela música me encanta. Quando você fala sobre as canções que ama, seus olhos brilham de um jeito único. É lindo ver alguém que tem tanto amor pela arte, pela melodia, pela harmonia. Você tem um coração musical, e isso torna tudo ao seu redor mais bonito.
 
-Admiro profundamente seus estudos em pedagogia e seu amor pelas crianças. Vejo em você uma futura educadora incrível, alguém que vai plantar sementes de conhecimento e amor no coração de cada criança que cruzar seu caminho. Sua dedicação aos estudos me inspira todos os dias. Você é determinada, inteligente e sei que vai conquistar tudo que sonhar.
+Admiro profundamente seus estudos e seu amor pelas crianças. Vejo em você uma futura educadora incrível, alguém que vai plantar sementes de conhecimento e amor no coração de cada criança que cruzar seu caminho. Sua dedicação aos estudos me inspira todos os dias. Você é determinada, inteligente e sei que vai conquistar tudo que sonhar. 
 
-Sua fé cristã é uma das coisas mais lindas em você. Me inspira a ser uma pessoa melhor e a buscar a Deus todos os dias. Você tem uma luz especial, uma paz que vem de dentro, e isso me faz sentir que estou ao lado de alguém verdadeiramente especial.
+A sua fé em Jesus é uma das coisas mais lindas em você, se não a mais bonita. Me inspira a ser uma pessoa melhor e a buscar a Deus todos os dias. Você tem uma luz especial, uma paz que vem de dentro, e isso me faz sentir que estou ao lado de alguém verdadeiramente especial. 
 
 Para mim, você é minha princesa. Não apenas pela sua beleza externa, que é inegável, mas principalmente pela sua beleza interior. Você é delicada, mas forte. Gentil, mas determinada. Doce, mas cheia de personalidade. Você é perfeita do seu jeito único.
 
 Mesmo sendo pouco tempo de relacionamento, já sonho com nosso futuro juntos. Quero estar ao seu lado em cada conquista, cada sonho realizado, cada momento especial. Quero apoiar seus estudos, celebrar suas vitórias, e caminhar junto com você nessa jornada da vida.
 
-Você trouxe cor para os meus dias, música para o meu coração, e esperança para o meu futuro. Obrigado por ser quem você é, por me permitir fazer parte da sua vida, e por tornar cada dia mais especial só por existir.
+Você trouxe música para o meu coração, e a felicidade que vamos ficar juntos para o meu futuro. Obrigado por ser quem você é, por me permitir fazer parte da sua vida, e por tornar cada dia mais especial só por existir. 
 
-Com todo o meu amor e carinho, prometo cuidar do seu coração com a delicadeza que uma princesa merece.
+Com todo o meu amor e carinho, prometo cuidar do seu coração com o amor de Cristo Jesus e com a delicadeza que uma princesa merece. 
 
-Te amo, minha linda Júlia. ✨`;
+Te amo Júlia. 
+Beijos princesa`;
 
         this.currentIndex = 0;
         this.isTyping = false;
@@ -85,7 +87,7 @@ Te amo, minha linda Júlia. ✨`;
 
         if (this.currentIndex < this.letterText.length) {
             const char = this.letterText[this.currentIndex];
-            
+
             // Handle line breaks
             if (char === '\n') {
                 letterBody.innerHTML += '<br><br>';
@@ -108,7 +110,7 @@ Te amo, minha linda Júlia. ✨`;
 
     togglePause() {
         const pauseBtn = document.getElementById('pauseLetter');
-        
+
         if (this.isPaused) {
             this.isPaused = false;
             if (pauseBtn) pauseBtn.textContent = 'Pausar';

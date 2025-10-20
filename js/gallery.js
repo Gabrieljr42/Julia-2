@@ -6,7 +6,7 @@ class Gallery {
                 id: 1,
                 title: "Nosso Primeiro Encontro",
                 date: "Há 1 mês e meio",
-                description: "O dia em que tudo começou. Seus olhos brilharam de um jeito que eu nunca vou esquecer. Foi quando soube que você era especial.",
+                description: "O dia em que tudo começou. Seus olhos brilharam de um jeito que eu nunca vou esquecer.",
                 icon: "💕",
                 color: "linear-gradient(135deg, #F8BBD9, #E4C1F9)"
             },
@@ -30,7 +30,7 @@ class Gallery {
                 id: 4,
                 title: "Sua Fé Me Inspira",
                 date: "Todos os dias",
-                description: "Sua fé cristã é uma das coisas mais lindas em você. Me inspira a ser uma pessoa melhor e a buscar a Deus todos os dias.",
+                description: "Sua fé é uma das coisas mais lindas em você. Me inspira a ser uma pessoa melhor e a buscar a Deus todos os dias.",
                 icon: "✨",
                 color: "linear-gradient(135deg, #E4C1F9, #A8E6CF)"
             },
@@ -51,7 +51,7 @@ class Gallery {
                 color: "linear-gradient(135deg, #A8E6CF, #E4C1F9)"
             }
         ];
-        
+
         this.init();
     }
 
@@ -76,7 +76,7 @@ class Gallery {
         const item = document.createElement('div');
         item.className = 'gallery-item';
         item.style.animationDelay = `${index * 0.1}s`;
-        
+
         item.innerHTML = `
             <div class="gallery-image" style="background: ${moment.color}">
                 <span class="gallery-icon">${moment.icon}</span>
@@ -367,10 +367,10 @@ class Gallery {
     }
 
     previousMoment() {
-        this.currentMomentIndex = this.currentMomentIndex === 0 
-            ? this.moments.length - 1 
+        this.currentMomentIndex = this.currentMomentIndex === 0
+            ? this.moments.length - 1
             : this.currentMomentIndex - 1;
-        
+
         this.updateModalContent();
     }
 

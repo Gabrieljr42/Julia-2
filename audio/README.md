@@ -1,37 +1,35 @@
 # Pasta de Áudio
 
-Esta pasta deve conter os arquivos de música para o site da Júlia.
+Esta pasta contém os arquivos de música escolhidos especialmente para o site da Júlia.
 
-## Arquivos necessários:
-
-### Música de fundo (Hero section):
-- `background.mp3` - Música suave e romântica para tocar na página inicial
+## Músicas Adicionadas:
 
 ### Playlist da seção musical:
-- `como-zaqueu.mp3` - "Como Zaqueu" - Bruna Karla
-- `tua-graca.mp3` - "Tua Graça Me Basta" - Fernanda Brum  
-- `oceanos.mp3` - "Oceanos" - Hillsong United
-- `reckless-love.mp3` - "Reckless Love" - Cory Asbury
 
-## Sugestões de músicas cristãs românticas:
+1. **"Partilhar" - Rubel, ANAVITÓRIA**
+   - `Rubel, ANAVITÓRIA - Partilhar [Clipe Oficial] [WkLpoUiasZ8].mp3`
+   - Uma das músicas mais românticas! Perfeita para falar sobre dividir a vida juntos
 
-1. **"Como Zaqueu" - Bruna Karla**
-   - Uma música linda sobre transformação e amor
+2. **"Space & Time" - Rafael Witt**
+   - `Rafael Witt - Space & Time (Wanderer Sessions) [dXUvi4j7PSo].mp3`
+   - Música suave e contemplativa, também usada como música de fundo
 
-2. **"Tua Graça Me Basta" - Fernanda Brum**
-   - Sobre a suficiência do amor e da graça
+3. **"Yellow" - Coldplay**
+   - `Coldplay - Yellow (Official Video) [yKNxeF4KMsY].mp3`
+   - Clássico romântico do Coldplay, sobre brilhar para alguém especial
 
-3. **"Oceanos" - Hillsong United**
-   - Sobre confiança e caminhar juntos
+4. **"Oração" - A Banda Mais Bonita da Cidade**
+   - `oração . a banda mais bonita da cidade (c_ leo fressato) [QW0i1U4u0KE].mp3`
+   - Música linda e poética, perfeita para o tema espiritual
 
-4. **"Reckless Love" - Cory Asbury**
-   - Sobre amor incondicional e profundo
+## Sobre as Escolhas:
 
-5. **Outras opções:**
-   - "Eu Navegarei" - Vineyard
-   - "Quão Grande é o Meu Deus" - Hillsong
-   - "10.000 Reasons" - Matt Redman
-   - "Goodness of God" - Bethel Music
+Essas músicas foram escolhidas com muito carinho e refletem diferentes aspectos do relacionamento:
+
+- **Partilhar**: O desejo de dividir tudo na vida
+- **Space & Time**: Amor que transcende tempo e espaço  
+- **Yellow**: Admiração e como ela ilumina sua vida
+- **Oração**: Gratidão e espiritualidade no relacionamento
 
 ## Formato recomendado:
 - MP3 com qualidade 128kbps (para carregamento rápido)

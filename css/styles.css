@@ -113,8 +113,8 @@ body {
 .hero-title {
   font-family: var(--font-title);
   font-size: clamp(3rem, 8vw, 6rem);
-  color: var(--branco-perola);
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+  color: #FFD700;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.3), 0 0 20px rgba(255, 215, 0, 0.5);
   margin-bottom: var(--spacing-sm);
   opacity: 0;
   animation: fadeInTitle 2s ease-out 0.5s forwards;
@@ -122,14 +122,20 @@ body {
 
 .hero-subtitle {
   font-size: clamp(1.2rem, 3vw, 1.8rem);
-  color: var(--branco-perola);
+  color: #2c2c2c;
   margin-bottom: var(--spacing-md);
   min-height: 2em;
+  text-shadow: 1px 1px 3px rgba(255,255,255,0.8);
+  font-weight: 500;
 }
 
 .typewriter {
-  border-right: 2px solid var(--dourado-claro);
+  border-right: 2px solid var(--rosa-escuro);
   animation: blink 1s infinite;
+  background: rgba(255,255,255,0.9);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  display: inline-block;
 }
 
 .hero-crown {
@@ -146,11 +152,12 @@ body {
   display: flex;
   align-items: center;
   gap: var(--spacing-xs);
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(44, 44, 44, 0.9);
   padding: var(--spacing-xs) var(--spacing-sm);
   border-radius: 25px;
   backdrop-filter: blur(10px);
   z-index: 3;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
 .audio-btn {
@@ -159,15 +166,17 @@ body {
   font-size: 1.5rem;
   cursor: pointer;
   transition: var(--transition-smooth);
+  color: #FFD700;
 }
 
 .audio-btn:hover {
   transform: scale(1.1);
+  color: var(--branco-perola);
 }
 
 .audio-label {
   font-size: 0.9rem;
-  color: var(--rosa-escuro);
+  color: var(--branco-perola);
   font-weight: 500;
 }
 
@@ -178,14 +187,21 @@ body {
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
-  color: var(--branco-perola);
+  color: #2c2c2c;
   z-index: 3;
+  background: rgba(255, 255, 255, 0.9);
+  padding: var(--spacing-sm);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  font-weight: 500;
 }
 
 .scroll-arrow {
   font-size: 2rem;
   animation: bounce 2s infinite;
   margin-bottom: var(--spacing-xs);
+  color: var(--rosa-escuro);
 }
 
 /* ===== NAVIGATION ===== */

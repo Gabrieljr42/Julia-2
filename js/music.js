@@ -6,28 +6,28 @@ class MusicPlayer {
         this.audio = null;
         this.playlist = [
             {
-                title: "Como Zaqueu",
-                artist: "Bruna Karla",
-                message: "Assim como Zaqueu, você me faz querer ser uma pessoa melhor todos os dias. Seu coração puro me inspira a crescer na fé e no amor.",
-                file: "audio/como-zaqueu.mp3" // Placeholder - adicionar arquivos reais
+                title: "Partilhar",
+                artist: "Rubel, ANAVITÓRIA",
+                message: "Esta música é perfeita para nós! 'Partilhar' é exatamente o que quero fazer com você - dividir cada momento, cada sonho, cada sentimento. Você é a pessoa com quem quero partilhar minha vida inteira.",
+                file: "audio/Rubel, ANAVITÓRIA - Partilhar [Clipe Oficial] [WkLpoUiasZ8].mp3"
             },
             {
-                title: "Tua Graça Me Basta",
-                artist: "Fernanda Brum",
-                message: "Sua graça e gentileza me bastam para ser feliz. Você é um presente de Deus na minha vida, minha princesa.",
-                file: "audio/tua-graca.mp3"
+                title: "Space & Time",
+                artist: "Rafael Witt",
+                message: "Como nesta música, você transcende espaço e tempo na minha vida. Não importa onde estejamos, quando estou com você, tudo faz sentido.",
+                file: "audio/Rafael Witt - Space & Time (Wanderer Sessions) [dXUvi4j7PSo].mp3"
             },
             {
-                title: "Oceanos",
-                artist: "Hillsong United",
-                message: "Como nos oceanos, meu amor por você é profundo e infinito. Juntos, podemos caminhar sobre as águas da vida.",
-                file: "audio/oceanos.mp3"
+                title: "Yellow",
+                artist: "Coldplay",
+                message: "🌟 'Look at the stars, look how they shine for you...'",
+                file: "audio/Coldplay - Yellow (Official Video) [yKNxeF4KMsY].mp3"
             },
             {
-                title: "Reckless Love",
-                artist: "Cory Asbury",
-                message: "O amor de Deus é imprudente, assim como o meu por você. Não há limites para o que sinto, meu amor.",
-                file: "audio/reckless-love.mp3"
+                title: "Oração",
+                artist: "A Banda Mais Bonita da Cidade",
+                message: "Esta música me lembra que você é uma oração respondida na minha vida. Cada dia ao seu lado é uma bênção, cada momento é um presente de Deus. Obrigado por existir, meu amor.",
+                file: "audio/oração . a banda mais bonita da cidade (c_ leo fressato) [QW0i1U4u0KE].mp3"
             }
         ];
         
@@ -91,7 +91,9 @@ class MusicPlayer {
         const playPauseBtn = document.getElementById('playPauseBtn');
         
         if (backgroundAudio && playPauseBtn) {
-            backgroundAudio.volume = 0.3; // Volume baixo
+            // Usar uma das músicas como fundo (mais suave)
+            backgroundAudio.src = "audio/Rafael Witt - Space & Time (Wanderer Sessions) [dXUvi4j7PSo].mp3";
+            backgroundAudio.volume = 0.2; // Volume bem baixo para fundo
             
             playPauseBtn.addEventListener('click', () => {
                 if (backgroundAudio.paused) {
